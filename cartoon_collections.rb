@@ -11,7 +11,7 @@ def summon_captain_planet(planeteer_calls)
 end
 
 def long_planeteer_calls(word_list)
-  word_list.any? do |word| 
+  word_list.any? do |word|
     word.length > 4
   end
 end
